@@ -476,11 +476,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   min-height: 100vh;
 }
 
-.bg-blue-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
-}
-
 .bg-blue-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
@@ -488,16 +483,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.from-blue-500 {
-  --tw-gradient-from: #3b82f6;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(59 130 246 / 0));
-}
-
-.from-green-500 {
-  --tw-gradient-from: #22c55e;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(34 197 94 / 0));
 }
 
 .from-green-400 {
@@ -513,46 +498,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: #2563eb;
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
 .bg-contain {
   background-size: contain;
 }
 
-.bg-auto {
-  background-size: auto;
-}
-
-.bg-left {
-  background-position: left;
-}
-
-.bg-left-top {
-  background-position: left top;
-}
-
-.bg-top {
-  background-position: top;
-}
-
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
 }
 
 .hover\:bg-green-300:hover {
@@ -564,19 +515,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:bg-red-600 {
     --tw-bg-opacity: 1;
     background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-red-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(127 29 29 / var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-opacity-0 {
-    --tw-bg-opacity: 0;
-  }
-
-  .lg\:bg-opacity-5 {
-    --tw-bg-opacity: 0.05;
   }
 
   .lg\:bg-opacity-50 {
